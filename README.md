@@ -1,7 +1,8 @@
 # _rotary_
-### xxx
 
-[3d render here]
+### a voltage controlled fader module for V-4EX, V-8, and V-4 video mixers
+
+![image](https://github.com/user-attachments/assets/3901c055-bf46-43a1-8f8e-1bcb6b861de8)
 
 - this circuit is distributed by __UNDERSCORES__ - _an open video hardware label_ : it is available to purchase - as a pcb, kit or assembled unit - at [underscores.shop](https://underscores.shop/two_comparator_effect/)
 - the schematic for the circuit can be found [here](/hardware/schematic.pdf)
