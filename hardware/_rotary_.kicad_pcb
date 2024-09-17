@@ -7,8 +7,9 @@
   (paper "A4")
   (title_block
     (title "_rotary_")
-    (date "2024-09-12")
+    (date "2024-09-18")
     (rev "v1_1_0")
+    (company "cyberboy666 & autr")
   )
 
   (layers
