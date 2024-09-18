@@ -16,8 +16,20 @@
 
 ## background
 
+<details><summary>background</summary>
 
-  
+A known mod to the Roland/Edirol V-4 video mixer is to add cv control of fader position. Since this mixer (and also the V-8 and V-4EX that followed it) has a swappable t-bar we decided to turn this mod into a standalone module. In addition to cv control we also added an envelope follower so that audio can be directly passed in and a nice rotary manual fader
+
+![image](https://github.com/user-attachments/assets/6146cbec-e386-45bd-aba8-a99d65b73ae7)
+
+_the offical swappable __CROSS FADER__ MODULE [from roland](https://proav.roland.com/global/products/v-4cf/)_
+
+![roland_v4_cv_mod](https://github.com/user-attachments/assets/d2662adb-aeae-4bd7-acb3-189bbd36b554)
+
+_an example of a cv mod built into V-4 mixer (can see protection diodes mounted on perfboard inside the case)_
+
+</details>
+
 # documentation
 
 this project is fully _open-source hardware_ - all the files required to build it are included in this repo for free. if you have the time and/or skill you can contribute back by collaborating on / testing new designs, improving these docs, making demo videos/other creative content etc. you can also support the project financially by [donating](https://opencollective.com/underscores) directing, or purchasing through the [web shop](https://underscores.shop).
@@ -92,6 +104,8 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
 
+![image](https://github.com/user-attachments/assets/39d59acc-3106-4593-85f0-6d74d76dca0f)
+
 
 </details>
 
@@ -111,7 +125,6 @@ if you would like to contribute back to these projects in some way but dont know
 
 ## credits & more info
 
-
 This circuit is distributed through UNDERSCORES – open video hardware label – visit [underscores.shop](https://underscores.shop) for more info
 
 The pcb was designed using KICAD , the booklet was created in LibreOffice Draw
@@ -122,3 +135,6 @@ Ask any questions or start discussions related to this project on the [scanlines
 
 You can contact me directly at tim (at) cyberboy666 (dot) com 
 Please get in touch if you are interested in hosting a workshop !
+
+![image](https://github.com/user-attachments/assets/0c35927b-9941-44cd-80d9-8715f031dd8a)
+
