@@ -1,6 +1,6 @@
 # _rotary_
 
-### a voltage controlled fader module for V-4EX, V-8, and V-4 video mixers
+### a voltage controlled fader module for V-4EX, V-8, and V-4 video mixers - created in collaboration with [autr](https://autr.tv)
 
 ![image](https://github.com/user-attachments/assets/3901c055-bf46-43a1-8f8e-1bcb6b861de8)
 
