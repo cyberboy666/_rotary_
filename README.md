@@ -10,9 +10,13 @@
 - interactive BOM is [here](https://htmlpreview.github.io/?https://github.com/cyberboy666/_rotary_/blob/main/hardware/bom/ibom.html)
 - consider [donating](https://opencollective.com/underscores) to the underscores project to help us continue creating for the commons
 
+![Screenshot from 2024-09-18 08-32-34](https://github.com/user-attachments/assets/eecd3d8d-8e77-4a13-bd0b-59874559fdca)
+
+
 ## demo video
 
-[demo video here]
+[![image](https://github.com/user-attachments/assets/72c7cabe-c98e-430b-a588-b18ba4e09b24)](https://videos.scanlines.xyz/w/wgZMKsMME6ki3BdQGAwYhb)
+
 
 ## background
 
