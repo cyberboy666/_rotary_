@@ -1,22 +1,39 @@
 # _rotary_
 
-### a voltage controlled fader module for V-4EX, V-8, and V-4 video mixers
+### a voltage controlled fader module for V-4EX, V-8, and V-4 video mixers - created in collaboration with [autr](https://autr.tv)
 
 ![image](https://github.com/user-attachments/assets/3901c055-bf46-43a1-8f8e-1bcb6b861de8)
 
 - this circuit is distributed by __UNDERSCORES__ - _an open video hardware label_ : it is available to purchase - as a pcb, kit or assembled unit - at [underscores.shop](https://underscores.shop/_rotary_/)
 - the schematic for the circuit can be found [here](/hardware/schematic.pdf)
 - the pcb gerber files for the lastest version can be found [here](/hardware/gerber_latest.zip)
+- interactive BOM is [here](https://htmlpreview.github.io/?https://github.com/cyberboy666/_rotary_/blob/main/hardware/bom/ibom.html)
 - consider [donating](https://opencollective.com/underscores) to the underscores project to help us continue creating for the commons
+
+![Screenshot from 2024-09-18 08-32-34](https://github.com/user-attachments/assets/eecd3d8d-8e77-4a13-bd0b-59874559fdca)
+
 
 ## demo video
 
-[demo video here]
+[![image](https://github.com/user-attachments/assets/72c7cabe-c98e-430b-a588-b18ba4e09b24)](https://videos.scanlines.xyz/w/wgZMKsMME6ki3BdQGAwYhb)
+
 
 ## background
 
+<details><summary>background</summary>
 
-  
+A known mod to the Roland/Edirol V-4 video mixer is to add cv control of fader position. Since this mixer (and also the V-8 and V-4EX that followed it) has a swappable t-bar we decided to turn this mod into a standalone module. In addition to cv control we also added an envelope follower so that audio can be directly passed in and a nice rotary manual fader
+
+![image](https://github.com/user-attachments/assets/6146cbec-e386-45bd-aba8-a99d65b73ae7)
+
+_the offical swappable __CROSS FADER__ MODULE [from roland](https://proav.roland.com/global/products/v-4cf/)_
+
+![roland_v4_cv_mod](https://github.com/user-attachments/assets/d2662adb-aeae-4bd7-acb3-189bbd36b554)
+
+_an example of a cv mod built into V-4 mixer (can see protection diodes mounted on perfboard inside the case)_
+
+</details>
+
 # documentation
 
 this project is fully _open-source hardware_ - all the files required to build it are included in this repo for free. if you have the time and/or skill you can contribute back by collaborating on / testing new designs, improving these docs, making demo videos/other creative content etc. you can also support the project financially by [donating](https://opencollective.com/underscores) directing, or purchasing through the [web shop](https://underscores.shop).
@@ -91,6 +108,8 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
 
+![image](https://github.com/user-attachments/assets/39d59acc-3106-4593-85f0-6d74d76dca0f)
+
 
 </details>
 
@@ -110,7 +129,6 @@ if you would like to contribute back to these projects in some way but dont know
 
 ## credits & more info
 
-
 This circuit is distributed through UNDERSCORES – open video hardware label – visit [underscores.shop](https://underscores.shop) for more info
 
 The pcb was designed using KICAD , the booklet was created in LibreOffice Draw
@@ -121,3 +139,6 @@ Ask any questions or start discussions related to this project on the [scanlines
 
 You can contact me directly at tim (at) cyberboy666 (dot) com 
 Please get in touch if you are interested in hosting a workshop !
+
+![image](https://github.com/user-attachments/assets/0c35927b-9941-44cd-80d9-8715f031dd8a)
+
