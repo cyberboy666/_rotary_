@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/timcaldwell/projects/_rotary_/hardware/_rotary_.kicad_sch</source>
+    <date>2025-01-31T12:37:10+1100</date>
+    <tool>Eeschema 8.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>_rotary_</title>
+        <company>cyberboy666 &amp; autr</company>
+        <rev>v1_1_0</rev>
+        <date>2024-09-18</date>
+        <source>_rotary_.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bdbb6af-2fa2-4136-8bc8-10ba4f7c4ea4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5e80c2a-b5de-40be-a60d-d8ea87f9b404</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fb969af-2991-4299-bcea-01bebe0c5693</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>bat46</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7a41558-5c5e-4b80-89bb-c1f2f1f049d5</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>bat46</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f28a069-2512-41a4-877c-85867e9594a8</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1n4148</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bb1e038-f3a0-4ab7-8173-84724cbf86e3</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1n4148</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c223bd6c-eb0b-46ab-8033-4b8d67366c79</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1n4148</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07061677-72e6-4779-bb0e-d06b8d939d89</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>mono_jack_3.5mm</value>
+      <footprint>lib_fp:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <fields>
+        <field name="Footprint">lib_fp:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <property name="ki_fp_filters" value="Jack*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf5c2d8f-8212-495c-944a-453254a175a7</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>jst_xa_3</value>
+      <footprint>Connector_JST:JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XA_B03B-XASK-1-A_1x03_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a24c2a0b-7525-4ac1-8332-bc9e75868e1f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1aafd10d-3ab9-4799-978a-60d420f74a79</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50d52daf-114b-4f83-8f4e-567fad0d2789</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1d8b1bb-97f7-40e3-85f9-5d3ad04959d9</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ef2004c-5f13-4870-9e2b-35d3bdfab614</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d70a92dc-f1ec-4741-a1b9-922d0eaefa48</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eb5929e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5c8fdb9-d76d-4c93-b7b5-9d4530b8d6b2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10464b86-65d6-4594-a8e0-7320043747ae</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60e8afd7-c96e-46c8-9054-e0bcef378fc9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dc4e0c6-3de4-46de-b6e2-6e0cbc302b06</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71cfd68b-2e9e-427f-898d-67f521bcf247</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ff02391-9b89-4dfa-acb8-dff60a2ddc68</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2.4k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bed36c2-e090-4644-8021-aac7b9d48a43</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70d75b21-0906-4d38-8568-0d7097d4ef9e</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b76f4d74-0818-487e-8afb-9b97192b27ac</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>1k_pot_d</value>
+      <footprint>lib_fp:Potentiometer_Vertical_Large</footprint>
+      <fields>
+        <field name="Footprint">lib_fp:Potentiometer_Vertical_Large</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1f68a4e-c845-411f-9ffd-daff5ce2490a</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>5k_pot</value>
+      <footprint>lib_fp:Potentiometer_Vertical_Large</footprint>
+      <fields>
+        <field name="Footprint">lib_fp:Potentiometer_Vertical_Large</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2968c9fb-517f-4a2a-914b-9eea1a2455e0</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>100k_pot</value>
+      <footprint>lib_fp:Potentiometer_Vertical_Large</footprint>
+      <fields>
+        <field name="Footprint">lib_fp:Potentiometer_Vertical_Large</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <property name="ki_fp_filters" value="Potentiometer*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a29dc963-b680-457f-a9b0-6a67efaf021a</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPDT_x2</value>
+      <footprint>lib_fp:dpdt_mini_toggle_switch_tayda</footprint>
+      <fields>
+        <field name="Footprint">lib_fp:dpdt_mini_toggle_switch_tayda</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <property name="ki_fp_filters" value="SW*DPDT*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7447ed31-198d-4706-b265-023670eaed4a 3bf2d948-bc23-407f-bd32-6be0386b58bb</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TLV2372</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv2375.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm_LongPads</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv2375.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TLV2372" description="Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>618848c7-b1b3-4a23-8b8d-2d7fe2c78f2b c1aca115-24c3-492d-bab1-216a4d599a56 21169a4a-bbb6-4d8f-9cd9-5e14230e82a2</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM317</value>
+      <footprint>Package_TO_SOT_THT:TO-92_HandSolder</footprint>
+      <datasheet>http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_HandSolder</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM317L_TO92" description="100mA 35V Adjustable Linear Regulator, TO-92"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="Adjustable Voltage Regulator 100mA Positive"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005eb5729e</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TLV2374</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-14_W7.62mm_LongPads</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Opamp_Quad" description="Quad operational amplifier"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="_rotary_.kicad_sch"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>712e9af3-ef91-4392-af2d-b65b794124e8 ac4c7d5e-d1a3-478a-a763-13f8ab93149c 984dc604-d881-4117-90b4-1e83f6e6d704 b9cd8cce-8bd6-4b13-8d28-7667173ef792 4285caa4-3e06-45d5-974b-29aa9fbd3ff4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="TLV2372">
+      <description>Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv2375.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV2372</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv2375.pdf</field>
+        <field name="Description">Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack2_SwitchT">
+      <description>Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_SwitchT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</field>
+      </fields>
+      <pins>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Opamp_Quad">
+      <description>Quad operational amplifier</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Opamp_Quad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Quad operational amplifier</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Potentiometer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317L_TO92">
+      <description>100mA 35V Adjustable Linear Regulator, TO-92</description>
+      <docs>http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317L_TO92</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf</field>
+        <field name="Description">100mA 35V Adjustable Linear Regulator, TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Switch, dual pole double throw, separate symbols</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/app/extensions/Library/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/app/extensions/Library/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/app/extensions/Library/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/app/extensions/Library/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/app/extensions/Library/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/app/extensions/Library/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+2.5V">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="S" pintype="passive"/>
+      <node ref="J1" pin="TN" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="T" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="output"/>
+    </net>
+    <net code="6" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="8" pintype="output"/>
+    </net>
+    <net code="9" name="Net-(D5-K)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(J2-Pin_2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(SW1A-A)">
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(SW1A-C)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(SW1B-B)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(SW1B-C)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="6" pinfunction="C" pintype="passive"/>
+      <node ref="U3" pin="14" pintype="output"/>
+    </net>
+    <net code="19" name="Net-(U1A--)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U1B-+)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U1B--)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(U2-ADJ)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(U3B--)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(U3C-+)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="7" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(U3D--)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="26" name="unconnected-(RV2-Pad1)">
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(RV3-Pad1)">
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
